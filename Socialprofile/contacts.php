@@ -74,7 +74,7 @@
 
 
                     <div class="col-12 col-lg-6  border-dark border-start">
-                        <form class="text-dark" action="forms/contact.php" method="post">
+                        <form class="text-dark">
                             <h5>Your Name</h5>
                             <input class="form-control" type="text" placeholder="Name" id="name" name="name">
                             <h5 class="mt-3">Your Email</h5>
@@ -85,7 +85,7 @@
 
                             <textarea class="form-control" placeholder="Your message here" id="message" style="height: 100px" name="message"> </textarea><br/>
                         <div class="text-center d-grid">
-                            <button class="btn btn-success" type="submit">Submit</button>
+                            <button class="btn btn-success" onclick="contact();">Submit</button>
                         </div>
 
                         </form>
@@ -99,6 +99,7 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
